@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');/*Importa fontes novas*/
+:root{/*Criando variáveis para tudo que é repetido*/
+    --cor-primaria: #FFEAEA;
+    --cor-secundaria: #9ECAD6;
+    --cor-terciaria: #F5CBCB;
+    --cor-hover: #748DAE;
+    --fonte-primaria:"Krona One", sans-serif ;
+    --fonte-secundaria:"Montserrat", sans-serif;
+}
+*{/*Reseta a formatação da página (Box Model)*/
+    margin: 0; /*margem*/
+    padding: 0; /*espaçamento da borda até o conteúdo*/
+}
+body { /*Corpo do texto*/
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box; /*Sempre vai ficar dentro do body(pai), se utilizarmos a tag content-box, pode ser que ela saia.*/
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+}
+header{/*Cabeçalho*/
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    padding: 2% 2% 2% 15%;
+}
+.cabecalho__menu{
+    padding: 0.625rem 1rem;
+    display: flex;
+    gap: 5rem;
+}
+.cabecalho__menu__links{
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+}
+.cabecalho__menu__links:hover{
+    text-decoration: none;
+    color: var(--cor-hover);
+}
+.apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*Cria um espaçamento entre os elementos*/
+    padding: 8% 15%;
+    flex-direction: row; /*Deixa tudo em linha, porém por padrão o display flex deixa em linha*/
+    gap: 82px
+}
+.destaque{/*Pode ser utilizada o 'span' também*/
+    color: var(--cor-secundaria);
+    margin: 0.4rem;
+}
+.apresentacao__conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.titulo{
+    font-size: 2.25rem;/*16px que equivale a 1 rem*/
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+}
+#artigo{
+    font-size: 1.5rem;
+}
+.experiencias{
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+}
+.experiencias_imagens{
+    display: flex;
+    padding-top: 1rem;
+}
+.img_experiencias{
+    width: 4rem;
+    height: auto;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+.listas{
+    padding: 1rem;
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+    font-size: large;
+}
+.listas li {
+    padding: 0.5rem;
+}
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+#cinnamoroll{
+    width: 50%;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    margin-top: 1.25rem;
+    padding: 1.5rem;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#desenvolvido{
+    padding-top: 0.5rem;
+}
+@media(max-width:1200px){
+    .cabecalho{
+        align-items: center;
+        padding-left: 2rem;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+        height: 30%;
+    }
+}
