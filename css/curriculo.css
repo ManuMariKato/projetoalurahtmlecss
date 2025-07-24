@@ -129,4 +129,11 @@ header{/*Cabeçalho*/
         width: auto;
         height: 30%;
     }
+    .experiencias_imagens{
+        flex-direction: column;
+    }
+    .img_experiencias{
+        width: 20%;
+        height: 5%;
+    }
 }
