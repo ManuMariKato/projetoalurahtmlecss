@@ -13,7 +13,7 @@
 </p>
 
 ---
-## About Project
+## 💻 About Project
 Esse projeto é uma página sobre minha trajetória na área da tecnologia, utilizei os cursos da Alura para me auxiliar no desenvolvimento dessa página.
 Esse projeto conta com 3 páginas, sendo elas: Home, sobre mim e currículo.
 
@@ -27,7 +27,7 @@ Esse projeto conta com 3 páginas, sendo elas: Home, sobre mim e currículo.
 - `CSS`
 
 ---
-## Alura
+## 🤖 Alura
 <img 
     alt="Alura" 
     title="Alura" 
