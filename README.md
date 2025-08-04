@@ -13,14 +13,14 @@
 </p>
 
 ---
-## 💻 About Project
+## 💻 Sobre o projeto
 Esse projeto é uma página sobre minha trajetória na área da tecnologia, utilizei os cursos da Alura para me auxiliar no desenvolvimento dessa página.
 Esse projeto conta com 3 páginas, sendo elas: Home, sobre mim e currículo.
 
 <img width="1903" height="1080" alt="paginaindex" src="https://github.com/user-attachments/assets/fcf29163-1746-48b7-87ec-686cb7f23f68" />
 
 ---
-## 🔌 Technologies used
+## 🔌 Linguagens utilizadas
 
 
 - `HTML`
