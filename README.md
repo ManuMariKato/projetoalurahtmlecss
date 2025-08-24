@@ -31,5 +31,5 @@ Esse projeto conta com 3 páginas, sendo elas: Home, sobre mim e currículo.
 <img 
     alt="Alura" 
     title="Alura" 
-    src="https://img.shields.io/badge/Created%20with%20Alura's%20course-018CDB"
+    src="https://img.shields.io/badge/Criado%20com%20os%20cursos%20da%20Alura-018CDB"
 />
